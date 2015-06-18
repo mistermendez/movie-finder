@@ -58,7 +58,6 @@ var MoviesStore = Reflux.createStore({
             .end(function(err, res){
                 if (res && res.ok) {
                     this.updateMovies(res.body);
-                    console.log(res.body);
                 } else {
                     console.error(url, status, err.response.toString());
                 }
