@@ -60,7 +60,7 @@ var Movies = React.createClass({
         var loader = (
             <div className="feed col-xs-12">
                 <div className="feed-loader">
-                    Finding movies 5 miles from geolocation <img className="img-feed-loader" src="/assests/images/tail-spin.svg" />
+                    Finding movies 5 miles from geolocation <img className="img-feed-loader" src="/images/tail-spin.svg" />
                 </div>
             </div>
         );
