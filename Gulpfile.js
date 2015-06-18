@@ -30,7 +30,7 @@ function onError() {
 
 // Styles
 gulp.task('styles', function() {
-    return gulp.src('styles/vosh.less')
+    return gulp.src('styles/movie-finder.less')
         .pipe($.plumber({
             errorHandler: onError
         }))
