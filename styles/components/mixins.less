@@ -1,0 +1,17 @@
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+  border-radius: @radius;
+}
+
+// Font Smoothing
+.font-smooth(@smooth) when (@smooth = true){
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+.font-smooth(@smooth) when (@smooth = false){
+  -moz-osx-font-smoothing: auto;
+  -webkit-font-smoothing: auto;
+  text-rendering: auto;
+}
