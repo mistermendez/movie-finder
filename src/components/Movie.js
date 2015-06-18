@@ -18,7 +18,7 @@ var Movie = React.createClass({
 
         for (var key in shows) {
             var showtime = shows[key];
-            var time = moment(showtime.dateTime).format('h:mm');
+            var time = moment(showtime.dateTime).format('h:mm a');
             var keyId = 'show' + key;
             showtimes.push(<li className="list-group-item" key={keyId}>{showtime.theatre.name} <span className="label label-success">{time}</span></li>);
         }
