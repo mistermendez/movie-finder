@@ -6,7 +6,7 @@ A simple web app that retrieves movies playing today from browser geo-location. 
 
 ## Live demo
 
-[http://movie-finder.herokuapp.com](http://movie-finder.herokuapp.com)
+[http://s3.amazonaws.com/movie-finder/public/index.html#/](http://s3.amazonaws.com/movie-finder/public/index.html#/)
 
 ## Install
 
